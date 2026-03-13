@@ -273,23 +273,7 @@ async function parseKMLtoGeoJSON(kmlText, plotInfo, surveyNo) {
   }
 
   return { type: 'FeatureCollection', features };
-{
-  "name": "printshubh-map",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "axios": "^1.6.0",
-    "node-cache": "^5.1.2",
-    "xml2js": "^0.6.2"
-  },
-  "license": "ISC"
-}
+
 
 function parseCoords(coordString) {
   return [coordString.trim().split(/\s+/).map(c => {
