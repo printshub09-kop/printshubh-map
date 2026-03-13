@@ -272,7 +272,8 @@ async function parseKMLtoGeoJSON(kmlText, plotInfo, surveyNo) {
     });
   }
 
-  return { type: 'FeatureCollection', features };
+ return { type: 'FeatureCollection', features };
+}  
 
 
 function parseCoords(coordString) {
